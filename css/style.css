@@ -1,0 +1,168 @@
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --sub-font: 'Roboto', sans-serif;
+    --extra-font: 'Inter', sans-serif;
+    --brand-color: #3F87F5;
+    --brand-color2: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    --para-color: #4E4E4E;
+    --heading-color: #1F1F1F;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ====================
+    common css ends 
+ ==================== */
+ .poppins-reg {
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+.poppins-med {
+    font-family: var(--main-font);
+    font-weight: 500;
+}
+.Poppins-blod {
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+.poppins-semi {
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+.roboto-reg {
+    font-family: var(--sub-font);
+    font-weight: 400;
+} 
+.roboto-med {
+    font-family: var(--sub-font);
+    font-weight: 500;
+} 
+.roboto-reg {
+    font-family: var(--sub-font);
+    font-weight: 600;
+} 
+
+.inter-reg {
+    font-family: var(--extra-font);
+    font-weight: 400;
+}
+.inter-med {
+    font-family: var(--extra-font);
+    font-weight: 500;
+}
+.inter-blod {
+    font-family: var(--extra-font);
+    font-weight: 600;
+}
+
+.para-color {
+    color: var(--para-color);
+}
+
+.heading-color {
+    color: var(--heading-color);
+}
+
+.brand-color {
+    background: var(--brand-color);
+}
+
+.brand-color2 {
+    background: var(--brand-color2);
+}
+
+.text-brand {
+    color: var(--brand-color);
+}
+
+.check-mark {
+    color: #5243C2;
+}
+
+/* ====================
+    typography css ends 
+ ==================== */
+ .navbar .navbar-toggler:focus {
+    box-shadow: none;
+
+}
+
+#banner {
+    margin-top: 100px;
+}
+ .carousel-text {
+    padding: 0 5%;
+}
+
+.precious-text {
+    padding-right: 108px;
+}
+
+.package-item, h4, small, .fa-solid {
+    transition: color linear .1s, background linear .3s, transform ease-in-out .3s;
+}
+
+.package-item .badge {
+    transition: visibility ease-out .1s;
+}
+
+.package-item:hover {
+    background: var(--brand-color) !important;
+    color: white;
+    transform: translateY(-5%);
+    padding-left: 5%;
+    box-shadow: 0px 0px 32px -17px var(--brand-color);
+}
+
+.package-item:hover .badge {
+    visibility: visible !important;
+}
+
+.package-item:hover small {
+    color: white !important;
+}
+
+
+.package-item:hover ul li {
+    color: white !important;
+}
+
+.package-item:hover .fa-solid {
+    color: white;
+}
+
+.fa-solid {
+    margin: 8px 0;
+    color: #5243C2;
+    transition: all linear .3s;
+}
+
+.choose-plan {
+    background: #ffdbf1;
+    color: var(--brand-color);
+    transition: all linear .3s;
+}
+
+.package-item:hover .choose-plan {
+    background: white;
+}
+
+.accordion-button {
+    transition: all linear .3s;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    }
+
+.toast button:focus {
+    box-shadow: none;
+}
+
