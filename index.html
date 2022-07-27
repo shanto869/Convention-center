@@ -433,7 +433,54 @@
 
     </main>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- footer modals starts -->
+    <footer id="">
+        <div class="container my-5 ">
+            <h3 class="Poppins-blod heading-color text-center my-5 ">Sent Feedback</h3>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary outline-none" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                Sent Feedback
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Contact Us</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="mb-3">
+                                    <label for="" class="form-level">Name:</label>
+                                    <input type="text" name="" id="" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-level">Email:</label>
+                                    <input type="email" name="" id="" class="form-control">
+                                </div>
+                                <div>
+                                    <label for="" class="form-level mb-1">Type Your Message Here:</label>
+                                    <textarea name="" id="" class="form-control"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer modals ends -->
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

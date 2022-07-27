@@ -166,3 +166,7 @@ a {
     box-shadow: none;
 }
 
+.btn, .btn-close, input, textarea {
+    box-shadow: none !important;
+}
+
