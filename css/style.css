@@ -91,7 +91,31 @@ a {
  ==================== */
  .navbar .navbar-toggler:focus {
     box-shadow: none;
+}
 
+.navbar .nav-item .nav-link {
+    position: relative;
+    transition: all linear .3s;
+}
+
+.navbar .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    width: 0%;
+    height: 3px;
+    background: #FF589B;
+    transition: all linear .3s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #FF589B;
+}
+
+.navbar .nav-item .nav-link:hover::after {
+
+    width: 80%;
 }
 
 #banner {
@@ -170,3 +194,23 @@ a {
     box-shadow: none !important;
 }
 
+@media screen and (max-width:576px) {
+   .carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+   }
+}
+
+@media screen and (min-width:576px) and (max-width: 767px){
+   .carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+   }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+   .precious-moment img {
+    height: 70vh;
+    object-fit: cover;
+   }
+}
